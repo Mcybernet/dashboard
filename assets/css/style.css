@@ -117,7 +117,7 @@
         /* height: 155px; */
         align-items: center;
         display: flex;
-        gap: 40px;
+    
     }
 
 
@@ -126,7 +126,7 @@
         justify-content: center;
         align-items: center;
         display: flex;
-        width: 325px;
+        width: 22%;
         height: 155px;
         border-radius: 10px;
         padding: 20px;
