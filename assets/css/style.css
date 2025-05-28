@@ -110,7 +110,6 @@
 
     .four-card{
         /* margin-top: -75px; */
-        /* border:  red solid; */
         /* background-color: white; */
         width: 92vw;
         justify-content: space-between;
@@ -119,8 +118,6 @@
         display: flex;
     
     }
-
-
     .card-1, .card-2, .card-3, .card-4{
         background-color: #2D2D2D;
         justify-content: center;
