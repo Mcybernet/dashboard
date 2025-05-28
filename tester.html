@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Switch Button</title>
+  <style>
+    .switch-btn {
+      background-color: #333;
+      color: #fff;
+      border: 1px solid #666;
+      border-radius: 20px;
+      padding: 6px 14px;
+      font-size: 14px;
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+    }
+
+    .switch-btn:hover {
+      background-color: #444;
+    }
+  </style>
+</head>
+<body style="background-color: #121212; color: #fff; font-family: sans-serif;">
+
+  <div class="information-chart">
+    <span>Total Viewers</span>
+    <button id="toggleSwitch" class="switch-btn">Weekly</button>
+  </div>
+
+  <script>
+    const btn = document.getElementById("toggleSwitch");
+    btn.addEventListener("click", () => {
+      btn.textContent = (btn.textContent === "Weekly") ? "Monthly" : "Weekly";
+    });
+  </script>
+
+</body>
+</html>

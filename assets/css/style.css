@@ -1,0 +1,487 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+        background-color: #1f1f1f !important;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+        height: 100vh;
+    }
+
+    .navigation{
+        /* width: 92vw; */
+        height: 300px;
+        justify-content: center;
+        background-color: #252626;
+        /* top: 0; */
+        display: flex;
+        padding-top: 35px;
+        /* align-items: center; */
+        /* border: red solid; */
+    }
+
+    .area-navigation{
+        /* border: red solid; */
+        
+        width: 92vw;
+        justify-content: space-between;
+        display: flex;
+
+    }
+
+    .hamburger {
+        /* border: red solid; */
+        width: 100px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        /* border: solid blue; */
+        justify-content: center;
+        /* align-items: center; */
+        gap: 8px;
+        cursor: pointer;
+    }
+    .hamburger span{
+        display: flex;
+        flex-direction: column;
+        background-color: #B5B5B5;
+        width: 30px;
+        height: 3px;
+        border-radius: 10px;
+    }
+
+    .hamburger .name-page{
+        
+    }
+
+    .header{
+        height: 100px;
+        display: flex;
+        justify-content: center;
+
+        /* border: red solid; */
+    }
+
+    .i-admin{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        text-align: right;
+        color: #B5B5B5;
+    }
+
+    .i-admin i{
+        font-size: 50px;
+        color: #B5B5B5;
+    }
+
+    .name-page-dashboard{ 
+        /* border: red solid; */
+        justify-content: center;
+        margin-top: -150px;
+        margin-bottom: 50px;
+        display: flex;
+        
+    }
+
+    .name-page-dashboard h2{
+        /* border: rgb(0, 13, 255) solid; */
+        color: #B5B5B5;
+        width: 92vw;
+        justify-content: center;
+
+    }
+
+    .fast-information{
+        /* border: red solid; */
+
+        
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .four-card{
+        /* margin-top: -75px; */
+        /* border:  red solid; */
+        /* background-color: white; */
+        width: 92vw;
+        justify-content: space-between;
+        /* height: 155px; */
+        align-items: center;
+        display: flex;
+        gap: 40px;
+    }
+
+
+    .card-1, .card-2, .card-3, .card-4{
+        background-color: #2D2D2D;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        width: 325px;
+        height: 155px;
+        border-radius: 10px;
+        padding: 20px;
+        padding-inline: 30px;
+        
+        /* border: red solid; */
+    }
+
+    .information-card{
+        width: 100%;
+        height: 100%;
+        /* background-color: red; */
+        /* padding: 50px; */
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .information-value{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* border: blue solid; */
+        color: #ABABAB;
+    }
+
+    .information-value span:nth-child(2){
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .information-value span:nth-child(1),.information-value span:nth-child(3){
+        font-weight:normal;
+        font-size: 16px;
+    }
+    .information-icon{
+        height: 50%;
+        width: 200px;
+        font-size: 33px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* border: blue solid; */
+        background-color: #373737;
+        color: #FA6801;
+        border-radius: 10px;
+        /* margin-inline: 20px; */
+
+    }
+
+    .table-chart-information{
+        margin-top: 45px;
+        /* border: red solid; */
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        width: 92vw;
+        /* flex-direction: column; */
+        margin-bottom: 50px;
+    }
+
+    .list-popular table{
+        width: 44.5vw;
+        height: 300px;
+
+    }
+
+
+    .list-popular{
+        /* height: 300px; */
+        color: #B5B5B5;
+        /* width: 600px; */
+        /* margin: 50px auto; */
+        /* overflow: hidden; */
+        /* border: red solid; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        display: flex;
+        background-color: #2D2D2D ;
+        border-radius: 10px;
+        /* overflow-y: auto; */
+        overflow: hidden;
+        /* gap: 30px; */
+        /* margin: 50px auto; */
+    }
+
+    table{
+        width: 100%;
+        /* height: 100%; */
+        /* border: red solid; */
+        border-collapse: collapse;
+        /* display: flex; */
+        table-layout: fixed;
+        /* background-color: #2D2D2D !important; */
+
+    }
+
+    thead{
+        background-color: #373737;
+    }
+
+    th, td{
+      padding: 15px 10px;
+
+        /* padding: 15px; */
+        /* padding-inline: 50px; */
+        /* padding-block: 10px; */
+        text-align: left;
+        /* line-height: 1.2; */
+    }
+    th:nth-child(1),td:nth-child(1){
+        width: 20px;
+        text-align: center;
+        /* border: red solid; */
+        
+
+    }
+    th:nth-child(2),td:nth-child(2){
+        width: 100px;
+        /* text-align: center; */
+        /* border: red solid; */
+
+    }
+    th:nth-child(3),td:nth-child(3){
+        width: 30px;
+        text-align: center;
+        /* border: red solid; */
+        
+
+    }
+
+    th{
+        position: sticky;
+        top: 0;
+        background-color: #373737;
+    }
+
+    td{
+        /* border: red solid 1px ; */
+        /* margin-inline:40px ; */
+        background-color: #2D2D2D !important;
+
+    }
+
+    tbody{
+        display: block;
+        max-height: 240px;
+        overflow-y: scroll;
+        scrollbar-width: none;
+        background-color: #2D2D2D;
+    }
+
+    thead, tbody tr {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+    }
+
+    .title{
+        /* margin-left: -50px; */
+    }
+
+    
+
+
+    .chart-viewers{
+        width: 44.5vw;
+        height: 300px;
+        /* border: red solid; */
+        border-radius: 10px;
+        background-color: #2D2D2D;
+        padding: 15px;
+        justify-content: center;
+        /* align-items: center; */
+        display: flex;
+        flex-direction: column;
+        /* text-align: start; */
+        gap: 10px;
+
+
+    }
+
+    .chart-viewers span{
+        color: #ABABAB;
+        font-weight: bolder;
+        font-size: 16px;
+        /* border: red solid; */
+
+    }
+
+    .chart-daily{
+        border-radius: 10px;
+        /* font-size: 16px; */
+
+        width: 100%;
+        height: 100%;
+        /* font-size: 5px; */
+        /* border: red solid; */
+    }
+
+    /* chart apex js open */
+    /* custom tooltip */
+    .apexcharts-tooltip {
+        background: #ff000080 !important;
+        color: #888888 !important;
+        border-radius: 8px !important;
+        /* border: 1px solid #006aff !important; */
+        font-size: 13px !important;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5) !important;
+    }
+
+    .apexcharts-tooltip-title {
+        background: #373737 !important;
+        color: #c8c8c8 !important;
+        /* font-weight: bold !important; */
+        font-size: 10px !important;
+        text-align: center;
+    }
+
+    /* Tooltip X-axis bawah (bulan + tanggal) */
+    .apexcharts-xaxis-tooltip,
+    .apexcharts-xaxis-tooltip-bottom,
+    .apexcharts-theme-false {
+        background: #2D2D2D !important;
+        border: 1px solid #6b7280 !important;
+        border-radius: 6px !important;
+        box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.150) !important;
+        /* color: #ff0000; */
+        /* background-color: red; */
+    }
+
+    .apexcharts-xaxis-tooltip-text,
+    .apexcharts-theme-false {
+        color: #999999 !important;
+    }
+
+    .apexcharts-text tspan{
+        font-size: 11px;
+    }
+
+    .apexcharts-xaxis-texts-g{
+    }
+    /* custom tooltip close */
+    /* chart apex js close */
+
+    .chart-total-viewers{
+        
+        /* padding: 15px; */
+        padding-block: 20px;
+        border-radius: 10px;
+        width: 92vw;
+        height: 650px;
+        background-color: #2D2D2D;
+        /* border: red solid; */
+        margin-bottom: 100px;
+        padding-inline: 40px;
+    }
+
+    .information-chart{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+        height: 100%;
+        /* border: red solid; */
+        gap: 10px;
+
+    }
+
+    .head-chart{
+        width: 100%;
+        /* border: red solid; */
+
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .head-chart span{
+        color: #ABABAB;
+        font-weight: bold;
+        font-size: 28px;
+    }
+
+    .head-chart button{
+        border: #424242 solid 2px;
+        background-color: transparent;
+        /* padding: 10px ; */
+        padding-block: 10px;
+        width: 100px;
+        /* padding-inline: 0px; */
+        border-radius: 10px;
+        color: #ABABAB;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    .chart-comparison{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        /* border: red solid; */
+        display: flex;
+        gap: 300px;
+        /* justify-content: space-around; */
+    }
+    .this-week,
+    .previos-week{
+        
+        color: #ABABAB;
+        /* border: red solid; */
+    }
+    .this-week span,
+    .previos-week span{
+        font-size: 25px;
+    }
+    .provit-value{
+        margin-top: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .provit-value span{
+        font-size: 35px;
+        font-weight: bolder;
+    }
+    .cyan-circle{
+        background-color: #6AD4EB;
+        width: 20px;
+        height: 20px;
+        border-radius: 50px;
+    }
+    .orange-circle{
+        background-color: #F38C3C;
+        width: 20px;
+        height: 20px;
+        border-radius: 50px;
+    }
+
+
+
+
+
+
+    .chart-container{
+        display: flex;
+        /* border: red solid; */
+        width: 100%;
+        height: 100%;
+        /* background-color: #1f1f1f; */
+        border-radius: 10px;
+
+    }
+    
