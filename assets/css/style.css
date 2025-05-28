@@ -192,7 +192,7 @@
     }
 
     .list-popular table{
-        width: 44.5vw;
+        width: 45vw;
         height: 300px;
 
     }
@@ -296,7 +296,7 @@
 
 
     .chart-viewers{
-        width: 44.5vw;
+        width: 45vw;
         height: 300px;
         /* border: red solid; */
         border-radius: 10px;
@@ -485,3 +485,18 @@
 
     }
     
+
+
+
+    /* article open */
+        .container-article{
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            border: red solid;
+
+        }
+
+        
+
+    /* article close */
